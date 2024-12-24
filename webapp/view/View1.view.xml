@@ -1,0 +1,17 @@
+<mvc:View controllerName="creatingvalidate.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+    <Label text="Username">
+    </Label>
+    <VBox>
+    <Input id="idusername" type="Text" placeholder="Enter your name" width="10rem"></Input>
+    </VBox>
+    <Label  text="Userid">
+    </Label>
+    <VBox>
+    <Input id="idusernumber" type="Number" placeholder="Enter your id" width="10rem"></Input>
+    </VBox>
+    <Button text="alert" press="onClick"></Button>
+    </Page>
+</mvc:View>
